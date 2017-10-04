@@ -481,6 +481,7 @@ form *:focus{
     color: #ffffff;
     font-weight: 500;
     text-transform: uppercase;
+    /*background-color: rgb(86,164,218);*/
     background-color: #00c0ff;
     height: 50px;
     line-height: 50px;
@@ -531,11 +532,13 @@ form *:focus{
     height: 768px;
 }
 .banner-1{
-    background-image: url(../../images/bg/banner-1.jpg);
+    background-image: url(cakovec.jpg);
+    background-blend-mode: multiply;
 }
-.banner-2{
-    background-image: url(../../images/bg/banner-2.jpg);
-}
+/*.team{*/
+    /*background-image: url(Weblica_26.jpg);*/
+    /*background-blend-mode: multiply;*/
+/*}*/
 .verticle-center{
     position: absolute;
     left: 0;
@@ -959,7 +962,8 @@ form *:focus{
 		10 - Team Section
 ==========================================================*/
 .team{
-    background-image: url(../../images/bg/team.jpg);
+    background-image: url(Weblica_26.jpg);
+    background-blend-mode: multiply;
 }
 .team-blocks{
     float: left;
@@ -1185,7 +1189,8 @@ form *:focus{
 		12 - Sponsors
 ==========================================================*/
 .sponsor{
-    background-image: url(../../images/bg/sponsor.jpg);
+    background-image: url(bitfalls-bg-color.png);
+    background-blend-mode: luminosity;
 }
 .sponsor-blocks{
     float: left;
@@ -1335,27 +1340,34 @@ form *:focus{
     text-align: center;
 }
 .pack-header{
-    background : -moz-linear-gradient(97.07% 50% 180deg,rgba(123, 82, 161, 1) 23.12%,rgba(117, 92, 168, 1) 35.84%,rgba(101, 120, 188, 1) 57.83%,rgba(76, 166, 221, 1) 86.26%,rgba(62, 190, 238, 1) 100%);
-	background : -webkit-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	background : -webkit-gradient(linear,97.07% 50% ,17.14% 50% ,color-stop(0.2312,rgba(123, 82, 161, 1) ),color-stop(0.3584,rgba(117, 92, 168, 1) ),color-stop(0.5783,rgba(101, 120, 188, 1) ),color-stop(0.8626,rgba(76, 166, 221, 1) ),color-stop(1,rgba(62, 190, 238, 1) ));
-	background : -o-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	background : -ms-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7B52A1', endColorstr='#3EBEEE' ,GradientType=0)";
-	background : linear-gradient(-90deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3EBEEE',endColorstr='#7B52A1' , GradientType=1);
+    /*background : -moz-linear-gradient(97.07% 50% 180deg,rgba(123, 82, 161, 1) 23.12%,rgba(117, 92, 168, 1) 35.84%,rgba(101, 120, 188, 1) 57.83%,rgba(76, 166, 221, 1) 86.26%,rgba(62, 190, 238, 1) 100%);*/
+	/*background : -webkit-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*background : -webkit-gradient(linear,97.07% 50% ,17.14% 50% ,color-stop(0.2312,rgba(123, 82, 161, 1) ),color-stop(0.3584,rgba(117, 92, 168, 1) ),color-stop(0.5783,rgba(101, 120, 188, 1) ),color-stop(0.8626,rgba(76, 166, 221, 1) ),color-stop(1,rgba(62, 190, 238, 1) ));*/
+	/*background : -o-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*background : -ms-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7B52A1', endColorstr='#3EBEEE' ,GradientType=0)";*/
+	/*background : linear-gradient(-90deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3EBEEE',endColorstr='#7B52A1' , GradientType=1);*/
     color: #ffffff;
     padding: 35px 20px 25px;
+    background-color: rgb(56, 57, 95);
 }
+
 .pack-icon{
-    color: #00c0ff;
-    background-color: #ffffff;
-    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.3);
+    /*color: #00c0ff;*/
+    /*background-color: #ffffff;*/
+    /*box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.3);*/
     margin: 0 auto 20px;
-    width: 68px;
-    height: 68px;
+    /*width: 68px;*/
+    /*height: 68px;*/
+    width: 150px;
+    height: 95px;
     line-height: 68px;
     font-size: 2.8rem;
     border-radius: 50%;
+}
+.pack-icon img{
+    margin-top: -60px;
 }
 .pack-price{
     font-size: 3rem;
@@ -1386,7 +1398,8 @@ form *:focus{
 		16 - Subscribe Section
 ==========================================================*/
 .subscribe{
-    background-image: url(../../images/bg/subscribe.jpg);
+    background-image: url(news.jpg);
+    background-blend-mode: multiply;
 }
 .subscribe .section-title {
 	font-size: 20px;
@@ -1430,14 +1443,15 @@ form *:focus{
 	font-size: 16px;
 	font-weight: 500;
 	color: #fff;
-	background : -moz-linear-gradient(97.07% 50% 180deg,rgba(123, 82, 161, 1) 23.12%,rgba(117, 92, 168, 1) 35.84%,rgba(101, 120, 188, 1) 57.83%,rgba(76, 166, 221, 1) 86.26%,rgba(62, 190, 238, 1) 100%);
-	background : -webkit-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	background : -webkit-gradient(linear,97.07% 50% ,17.14% 50% ,color-stop(0.2312,rgba(123, 82, 161, 1) ),color-stop(0.3584,rgba(117, 92, 168, 1) ),color-stop(0.5783,rgba(101, 120, 188, 1) ),color-stop(0.8626,rgba(76, 166, 221, 1) ),color-stop(1,rgba(62, 190, 238, 1) ));
-	background : -o-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	background : -ms-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7B52A1', endColorstr='#3EBEEE' ,GradientType=0)";
-	background : linear-gradient(-90deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3EBEEE',endColorstr='#7B52A1' , GradientType=1);
+    background-color: #00c0ff;
+	/*background : -moz-linear-gradient(97.07% 50% 180deg,rgba(123, 82, 161, 1) 23.12%,rgba(117, 92, 168, 1) 35.84%,rgba(101, 120, 188, 1) 57.83%,rgba(76, 166, 221, 1) 86.26%,rgba(62, 190, 238, 1) 100%);*/
+	/*background : -webkit-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*background : -webkit-gradient(linear,97.07% 50% ,17.14% 50% ,color-stop(0.2312,rgba(123, 82, 161, 1) ),color-stop(0.3584,rgba(117, 92, 168, 1) ),color-stop(0.5783,rgba(101, 120, 188, 1) ),color-stop(0.8626,rgba(76, 166, 221, 1) ),color-stop(1,rgba(62, 190, 238, 1) ));*/
+	/*background : -o-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*background : -ms-linear-gradient(180deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7B52A1', endColorstr='#3EBEEE' ,GradientType=0)";*/
+	/*background : linear-gradient(-90deg, rgba(123, 82, 161, 1) 23.12%, rgba(117, 92, 168, 1) 35.84%, rgba(101, 120, 188, 1) 57.83%, rgba(76, 166, 221, 1) 86.26%, rgba(62, 190, 238, 1) 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3EBEEE',endColorstr='#7B52A1' , GradientType=1);*/
 	border-radius: 30px;
 	line-height: 50px;
 	min-width: 150px;
@@ -1933,4 +1947,8 @@ span.schedule-meta {
 
 .schedule-content.full {
     width: 100%;
+}
+
+.schedule-description a {
+    text-decoration: underline;
 }
