@@ -1150,6 +1150,12 @@ form *:focus{
 .speaker-mock img{
     border-radius: 50%;
 }
+.speaker-mock.small {
+    height: 120px;
+    width: 120px;
+    padding: 9px;
+}
+
 .schedule-content {
     float: left;
     width: calc(100% - 300px);
@@ -1384,6 +1390,16 @@ form *:focus{
     border-style: solid;
     border-color: #e7e7e7;
     padding: 30px 20px 40px;
+}
+@media(min-width: 1200px) {
+    .pack-body {
+        min-height:410px;
+    }
+    .pack-body > a {
+        position: absolute;
+        bottom: 50px;
+        left: 85px;
+    }
 }
 .feature-list{
     margin-bottom: 30px;
