@@ -532,7 +532,7 @@ form *:focus{
     height: 768px;
 }
 .banner-1{
-    background-image: url(cakovec.jpg);
+    background-image: url(cakovec-sml.jpg);
     background-blend-mode: multiply;
 }
 /*.team{*/
@@ -962,7 +962,7 @@ form *:focus{
 		10 - Team Section
 ==========================================================*/
 .team{
-    background-image: url(Weblica_26.jpg);
+    background-image: url(Weblica_26-sml.jpg);
     background-blend-mode: multiply;
 }
 .team-blocks{
@@ -1414,7 +1414,7 @@ form *:focus{
 		16 - Subscribe Section
 ==========================================================*/
 .subscribe{
-    background-image: url(news.jpg);
+    background-image: url(news-sml.jpg);
     background-blend-mode: multiply;
 }
 .subscribe .section-title {

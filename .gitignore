@@ -51,3 +51,8 @@ packages/*
 .vagrant/*
 
 .env
+/block_tickets_editable/
+/sponsorship/*
+!/sponsorship/block_sponsorhip.pdf
+/block_tickets_editable.zip
+/sponsorship.zip
