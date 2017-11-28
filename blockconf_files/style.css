@@ -1973,3 +1973,10 @@ span.schedule-meta {
     /*background-image: url(wov/wov.png);*/
     background-color: rgb(233, 247, 253);
 }
+
+.sponsection {
+    color: #00c0ff;
+    font-size: xx-large;
+    background-color: rgba(255,255,255,0.2);
+    padding: 20px;
+}
