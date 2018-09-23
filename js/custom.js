@@ -24,7 +24,7 @@ $(document).ready(function()
   $.get('/header.html', function(data) {
     $("header.header").html(data);
     $("#header li a[href*='"+location.pathname+"']").parent().addClass("active");
-    if (location.pathname === '') {
+    if (location.pathname === '/' || location.pathname === '') {
       $("#header li:first-child").addClass("active");
     }
   });
