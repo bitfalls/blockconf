@@ -200,3 +200,15 @@ $(document).ready(function()
 	}
 
 });
+
+$(".selectSwitcher").change(event, function(e) {
+  let buttonsTarget = event.currentTarget.dataset.target;
+  let newUrl = $(event.currentTarget).val();
+
+  // console.log(buttonsTarget);
+  // console.log(newUrl);
+  // console.log($(buttonsTarget).find("a.buy-with-crypto"));
+  // console.log($(buttonsTarget).find("a.buy-with-crypto").attr("href"));
+
+  $("#"+buttonsTarget).find("a.buy-with-crypto").attr("href", newUrl);
+});
