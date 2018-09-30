@@ -1343,3 +1343,7 @@ section
 	color: #bbbbbb;
 	margin-top: 7px;
 }
+
+a.buy-with-crypto {
+    display:none;
+}

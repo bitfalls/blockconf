@@ -30,7 +30,6 @@ $(document).ready(function()
     }
   });
 
-  $(".buy-with-crypto").hide();
   $(".buy-with-crypto:first-child").show();
 
 	/* 
