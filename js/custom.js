@@ -30,6 +30,9 @@ $(document).ready(function()
     }
   });
 
+  $(".buy-with-crypto").hide();
+  $(".buy-with-crypto:first-child").show();
+
 	/* 
 
 	1. Vars and Inits
@@ -205,10 +208,13 @@ $(".selectSwitcher").change(event, function(e) {
   let buttonsTarget = event.currentTarget.dataset.target;
   let newUrl = $(event.currentTarget).val();
 
+  $('#'+buttonsTarget+' a.buy-with-crypto').hide();
+  $('#'+buttonsTarget+' a.buy-with-crypto[href="'+newUrl+'"]').show();
+
   // console.log(buttonsTarget);
   // console.log(newUrl);
   // console.log($(buttonsTarget).find("a.buy-with-crypto"));
   // console.log($(buttonsTarget).find("a.buy-with-crypto").attr("href"));
 
-  $("#"+buttonsTarget).find("a.buy-with-crypto").attr("href", newUrl);
+  // $("#"+buttonsTarget).find("a.buy-with-crypto").attr("href", newUrl);
 });
